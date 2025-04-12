@@ -1,0 +1,521 @@
+Date/Time:       2025-04-12 21:15:49 
+Command line:    C:\Users\16928\AppData\Local\Programs\Python\Python313\Scripts\briefcase build
+
+OS Release:      Windows 11
+OS Version:      10.0.26100
+Architecture:    AMD64
+Platform:        Windows-11-10.0.26100-SP0
+
+Python exe:      C:\Users\16928\AppData\Local\Programs\Python\Python313\python.exe
+Python version:  3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.22
+Target platform: windows
+Target format:   app
+
+Environment Variables:
+	ALLUSERSPROFILE=C:\ProgramData
+	APPDATA=C:\Users\16928\AppData\Roaming
+	BTK_PVTHEAP:13768=24f70000
+	BTK_PVTHEAP_POOL:13768=24f70890
+	BTK_PVTPGM_BLKQUEUES:13768=24f79fb0
+	BTK_PVTPGM_BUCKETS:13768=24f78020
+	BTK_PVTPGM_PGPOOLS:13768=24f761d0
+	BTK_WIN_TRACEBACK:13768=7fff5eba6e00
+	COMMONPROGRAMFILES=C:\Program Files\Common Files
+	COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+	COMMONPROGRAMW6432=C:\Program Files\Common Files
+	COMPUTERNAME=LAPTOP-RTG52O13
+	COMSPEC=C:\WINDOWS\system32\cmd.exe
+	DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+	EFC_13768=1
+	FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+	FPS_BROWSER_USER_PROFILE_STRING=Default
+	HOME=C:\Users\16928
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\16928
+	JAVA_HOME=D:\jdk-21.0.6.7-hotspot\
+	LOCALAPPDATA=C:\Users\16928\AppData\Local
+	LOGONSERVER=\\LAPTOP-RTG52O13
+	LS=dir
+	MAIN_THREAD_ENV=13768:18076
+	NUMBER_OF_PROCESSORS=16
+	ONEDRIVE=C:\Users\16928\OneDrive
+	OS=Windows_NT
+	PATH=C:\Program Files\Microsoft\jdk-21.0.6.7-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Microsoft\jdk-17.0.7.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\OpenCV\lib;D:\OpenCV\bin;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\gs\gs10.03.1\bin;C:\Program Files\CMake\bin;D:\Program Files\nodejs\;d:\page;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\16928\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\16928\AppData\Local\Programs\Python\Python313\;C:\Users\16928\AppData\Local\Microsoft\WindowsApps;D:\OpenCV\bin;D:\OpenCV\lib;C:\Users\16928\AppData\Local\Programs\Microsoft VS Code\bin;D:\MingW\mingw64\bin;%JAVA_HOME\bin;%JAVA_HOME\jre\bin;D:\FlutterSDK\flutter\bin;C:\Users\16928\.dotnet\tools;C:\Users\16928\AppData\Local\Programs\Ollama;D:\pypy3.10-v7.3.16-win64;C:\Users\16928\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\wkhtmltopdf\bin;C:\Program Files\Tesseract-OCR;C:\Users\16928\AppData\Roaming\npm;C:\Users\16928\AppData\Local\Microsoft\WinGet\Packages\GNU.Wget2_Microsoft.Winget.Source_8wekyb3d8bbwe;D:\cosyvoice\CosyVoice\third_party\Matcha-TTS;D:\platform-tools-latest-windows\platform-tools;
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	PROCESSOR_ARCHITECTURE=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=ba02
+	PROGRAMDATA=C:\ProgramData
+	PROGRAMFILES=C:\Program Files
+	PROGRAMFILES(X86)=C:\Program Files (x86)
+	PROGRAMW6432=C:\Program Files
+	PROMPT=$P$G
+	PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	PUB_HOSTED_URL=https://pub.flutter-io.cn
+	SD=shutdown -s -t 60
+	SESSIONNAME=Console
+	SYSTEMDRIVE=C:
+	SYSTEMROOT=C:\WINDOWS
+	TEMP=C:\Users\16928\AppData\Local\Temp
+	TMP=C:\Users\16928\AppData\Local\Temp
+	USERDOMAIN=LAPTOP-RTG52O13
+	USERDOMAIN_ROAMINGPROFILE=LAPTOP-RTG52O13
+	USERNAME=16928
+	USERPROFILE=C:\Users\16928
+	WINDIR=C:\WINDOWS
+	ZES_ENABLE_SYSMAN=1
+
+pyproject.toml:
+# This project was generated with 0.3.22 using template: https://github.com/beeware/briefcase-template@v0.3.22
+[tool.briefcase]
+project_name = "Udiskthief"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://example.com/udiskthief"
+license.file = "LICENSE"
+author = "aaaaaaa"
+author_email = "aaaaaaa@example.com"
+
+[tool.briefcase.app.udiskthief]
+icon = "icons/A"
+formal_name = "Udiskthief"
+description = "aaaaa"
+long_description = """More details about the app should go here.
+"""
+
+sources = [
+    "src/udiskthief",
+]
+test_sources = [
+    "tests",
+]
+
+requires = [
+    "psutil",
+]
+test_requires = [
+    "pytest",
+]
+
+[tool.briefcase.app.udiskthief.macOS]
+universal_build = true
+requires = [
+    "toga-cocoa~=0.4.7",
+    "std-nslog~=1.0.3",
+]
+
+[tool.briefcase.app.udiskthief.linux]
+requires = [
+    "toga-gtk~=0.4.7",
+]
+
+[tool.briefcase.app.udiskthief.linux.system.debian]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "libcairo2-dev",
+    # Needed to compile PyGObject wheel
+    "libgirepository1.0-dev",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK and its GI bindings
+    "gir1.2-gtk-3.0",
+    "libgirepository-1.0-1",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3-module",
+    # Needed to provide WebKit2 at runtime
+    # Note: Debian 11 and Ubuntu 20.04 require gir1.2-webkit2-4.0 instead
+    # "gir1.2-webkit2-4.1",
+]
+
+[tool.briefcase.app.udiskthief.linux.system.rhel]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-gobject-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+]
+
+system_runtime_requires = [
+    # Needed to support Python bindings to GTK
+    "gobject-introspection",
+    # Needed to provide GTK
+    "gtk3",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk3",
+]
+
+[tool.briefcase.app.udiskthief.linux.system.suse]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "gtk3",
+    # Needed to support Python bindings to GTK
+    "gobject-introspection", "typelib(Gtk) = 3.0",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3-module",
+    # Needed to provide WebKit2 at runtime
+    # "libwebkit2gtk3", "typelib(WebKit2)",
+]
+
+[tool.briefcase.app.udiskthief.linux.system.arch]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection",
+    # Runtime dependencies that need to exist so that the
+    # Arch package passes final validation.
+    # Needed to provide GTK
+    "gtk3",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra",
+    # Needed to provide WebKit2
+    # "webkit2gtk",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "gtk3",
+    # Needed to provide PyGObject bindings
+    "gobject-introspection-runtime",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk",
+]
+
+[tool.briefcase.app.udiskthief.linux.appimage]
+manylinux = "manylinux_2_28"
+
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-gobject-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+    # Needed to provide GTK
+    "gtk3-devel",
+    # Dependencies that GTK looks for at runtime, that need to be
+    # in the build environment to be picked up by linuxdeploy
+    "libcanberra-gtk3",
+    "PackageKit-gtk3-module",
+    "gvfs-client",
+]
+
+linuxdeploy_plugins = [
+    "DEPLOY_GTK_VERSION=3 gtk",
+]
+
+[tool.briefcase.app.udiskthief.linux.flatpak]
+flatpak_runtime = "org.gnome.Platform"
+flatpak_runtime_version = "47"
+flatpak_sdk = "org.gnome.Sdk"
+
+[tool.briefcase.app.udiskthief.windows]
+requires = [
+    "toga-winforms~=0.4.7",
+]
+
+# Mobile deployments
+[tool.briefcase.app.udiskthief.iOS]
+requires = [
+    "toga-iOS~=0.4.7",
+    "std-nslog~=1.0.3",
+]
+
+[tool.briefcase.app.udiskthief.android]
+requires = [
+    "toga-android~=0.4.7",
+]
+
+base_theme = "Theme.MaterialComponents.Light.DarkActionBar"
+
+build_gradle_dependencies = [
+    "com.google.android.material:material:1.12.0",
+    # Needed for DetailedList
+    # "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+    # Needed for MapView
+    # "org.osmdroid:osmdroid-android:6.1.20",
+]
+
+# Web deployments
+[tool.briefcase.app.udiskthief.web]
+requires = [
+    "toga-web~=0.4.7",
+]
+style_framework = "Shoelace v2.3"
+
+Briefcase Log:
+[21:15:49]                                                                                                                                                         windows_sdk.py:82
+           [Windows SDK] Finding Suitable Installation...                                                                                                          windows_sdk.py:82
+           Evaluating Registry SDK version '10.0.22621.0' at C:\Program Files (x86)\Windows Kits\10                                                               windows_sdk.py:133
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     'C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\signtool.exe' '-?'                                                                 subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     D:\Beeware\udiskthief                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Usage: signtool <command> [options]                                                                                                             subprocess.py:838
+           >>>                                                                                                                                                     subprocess.py:838
+           >>>       Valid commands:                                                                                                                               subprocess.py:838
+           >>>         sign       --  Sign files using an embedded signature.                                                                                      subprocess.py:838
+           >>>         timestamp  --  Timestamp previously-signed files.                                                                                           subprocess.py:838
+           >>>         verify     --  Verify embedded or catalog signatures.                                                                                       subprocess.py:838
+           >>>         catdb      --  Modify a catalog database.                                                                                                   subprocess.py:838
+           >>>         remove     --  Remove embedded signature(s) or reduce the size of an                                                                        subprocess.py:838
+           >>>                        embedded signed file.                                                                                                        subprocess.py:838
+           >>>                                                                                                                                                     subprocess.py:838
+           >>>     For help on a specific command, enter "signtool <command> /?"                                                                                   subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Using Windows SDK v10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10                                                                              windows_sdk.py:227
+                                                                                                                                                                           app.py:55
+           [udiskthief] Building App...                                                                                                                                    app.py:55
+           Removing any digital signatures from stub app... started                                                                                                        app.py:67
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     'C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\signtool.exe' remove -s 'src\Udiskthief.exe'                                       subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     D:\Beeware\udiskthief\build\udiskthief\windows\app                                                                                              subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>                                                                                                                                                     subprocess.py:838
+           >>>     Number of errors: 1                                                                                                                             subprocess.py:838
+           >>>                                                                                                                                                     subprocess.py:838
+           >>>     SignTool Error: File not found: src\Udiskthief.exe                                                                                              subprocess.py:838
+           >>>                                                                                                                                                     subprocess.py:838
+           >>> Return code: 1                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Removing any digital signatures from stub app... errored                                                                                                        app.py:67
+                                                                                                                                                                      __main__.py:42
+           Failed to remove any existing digital signatures from the stub app.                                                                                        __main__.py:43
+                                                                                                                                                                      __main__.py:43
+           Recreating the app layout may also help resolve this issue:                                                                                                __main__.py:43
+                                                                                                                                                                      __main__.py:43
+               $ briefcase create windows app                                                                                                                         __main__.py:43
+                                                                                                                                                                      __main__.py:43
+           Saving log... started                                                                                                                                      console.py:432
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\16928\AppData\Local\Programs\Python\Python313\Lib\site-packages\briefcase\platforms\windows\app.py:71 in build_app                                                      │
+│                                                                                                                                                                                  │
+│    68 │   │   │   │   "Removing any digital signatures from stub app..."                                                                                                         │
+│    69 │   │   │   ):                                                                                                                                                             │
+│    70 │   │   │   │   try:                                                                                                                                                       │
+│ ❱  71 │   │   │   │   │   self.tools.subprocess.check_output(                                                                                                                    │
+│    72 │   │   │   │   │   │   [                                                                                                                                                  │
+│    73 │   │   │   │   │   │   │   self.tools.windows_sdk.signtool_exe,                                                                                                           │
+│    74 │   │   │   │   │   │   │   "remove",                                                                                                                                      │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                  │
+│ │                 app = <com.example.udiskthief v0.0.1 AppConfig>                                             │                                                                  │
+│ │              kwargs = {'test_mode': False}                                                                  │                                                                  │
+│ │                self = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x0000023438BB4980> │                                                                  │
+│ │ unbuilt_binary_path = WindowsPath('D:/Beeware/udiskthief/build/udiskthief/windows/app/src/Stub.exe')        │                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                  │
+│                                                                                                                                                                                  │
+│ C:\Users\16928\AppData\Local\Programs\Python\Python313\Lib\site-packages\briefcase\integrations\subprocess.py:144 in inner                                                       │
+│                                                                                                                                                                                  │
+│   141 │   │   │   with sub.tools.console.release_console_control():                                                                                                              │
+│   142 │   │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                              │
+│   143 │   │   else:                                                                                                                                                              │
+│ ❱ 144 │   │   │   return sub_method(sub, args, *wrapped_args, **wrapped_kwargs)                                                                                                  │
+│   145 │                                                                                                                                                                          │
+│   146 │   return inner                                                                                                                                                           │
+│   147                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────────────╮       │
+│ │                    args = [WindowsPath('C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/signtool.exe'), 'remove', '-s', WindowsPath('src/Udiskthief.exe')] │       │
+│ │              executable = 'C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\signtool.exe'                                                            │       │
+│ │ remove_dynamic_elements = False                                                                                                                                        │       │
+│ │                     sub = <briefcase.integrations.subprocess.Subprocess object at 0x0000023438BB5010>                                                                  │       │
+│ │            wrapped_args = ()                                                                                                                                           │       │
+│ │          wrapped_kwargs = {'cwd': WindowsPath('D:/Beeware/udiskthief/build/udiskthief/windows/app'), 'quiet': 1}                                                       │       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯       │
+│                                                                                                                                                                                  │
+│ C:\Users\16928\AppData\Local\Programs\Python\Python313\Lib\site-packages\briefcase\integrations\subprocess.py:652 in check_output                                                │
+│                                                                                                                                                                                  │
+│   649 │   │   │   self._log_environment(kwargs.get("env"))                                                                                                                       │
+│   650 │   │                                                                                                                                                                      │
+│   651 │   │   try:                                                                                                                                                               │
+│ ❱ 652 │   │   │   cmd_output = self._subprocess.check_output(                                                                                                                    │
+│   653 │   │   │   │   [str(arg) for arg in args], **self.final_kwargs(**kwargs)                                                                                                  │
+│   654 │   │   │   )                                                                                                                                                              │
+│   655 │   │   except subprocess.CalledProcessError as e:                                                                                                                         │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────╮                        │
+│ │   args = [WindowsPath('C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/signtool.exe'), 'remove', '-s', WindowsPath('src/Udiskthief.exe')] │                        │
+│ │ kwargs = {'cwd': WindowsPath('D:/Beeware/udiskthief/build/udiskthief/windows/app'), 'stderr': -2}                                                     │                        │
+│ │  quiet = 1                                                                                                                                            │                        │
+│ │   self = <briefcase.integrations.subprocess.Subprocess object at 0x0000023438BB5010>                                                                  │                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                        │
+│                                                                                                                                                                                  │
+│ C:\Users\16928\AppData\Local\Programs\Python\Python313\Lib\subprocess.py:474 in check_output                                                                                     │
+│                                                                                                                                                                                  │
+│    471 │   │   │   empty = b''                                                                                                                                                   │
+│    472 │   │   kwargs['input'] = empty                                                                                                                                           │
+│    473 │                                                                                                                                                                         │
+│ ❱  474 │   return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,                                                                                                      │
+│    475 │   │   │      **kwargs).stdout                                                                                                                                           │
+│    476                                                                                                                                                                           │
+│    477                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────────╮               │
+│ │        kw = 'check'                                                                                                                                            │               │
+│ │    kwargs = {'stderr': -2, 'cwd': 'D:\\Beeware\\udiskthief\\build\\udiskthief\\windows\\app', 'text': True, 'encoding': 'cp936', 'errors': 'backslashreplace'} │               │
+│ │ popenargs = (['C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\signtool.exe', 'remove', '-s', 'src\\Udiskthief.exe'],)                      │               │
+│ │   timeout = None                                                                                                                                               │               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯               │
+│                                                                                                                                                                                  │
+│ C:\Users\16928\AppData\Local\Programs\Python\Python313\Lib\subprocess.py:579 in run                                                                                              │
+│                                                                                                                                                                                  │
+│    576 │   │   │   raise                                                                                                                                                         │
+│    577 │   │   retcode = process.poll()                                                                                                                                          │
+│    578 │   │   if check and retcode:                                                                                                                                             │
+│ ❱  579 │   │   │   raise CalledProcessError(retcode, process.args,                                                                                                               │
+│    580 │   │   │   │   │   │   │   │   │    output=stdout, stderr=stderr)                                                                                                        │
+│    581 │   return CompletedProcess(process.args, retcode, stdout, stderr)                                                                                                        │
+│    582                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────╮                               │
+│ │ capture_output = False                                                                                                                         │                               │
+│ │          check = True                                                                                                                          │                               │
+│ │          input = None                                                                                                                          │                               │
+│ │         kwargs = {                                                                                                                             │                               │
+│ │                  │   'stdout': -1,                                                                                                             │                               │
+│ │                  │   'stderr': -2,                                                                                                             │                               │
+│ │                  │   'cwd': 'D:\\Beeware\\udiskthief\\build\\udiskthief\\windows\\app',                                                        │                               │
+│ │                  │   'text': True,                                                                                                             │                               │
+│ │                  │   'encoding': 'cp936',                                                                                                      │                               │
+│ │                  │   'errors': 'backslashreplace'                                                                                              │                               │
+│ │                  }                                                                                                                             │                               │
+│ │      popenargs = (['C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\signtool.exe', 'remove', '-s', 'src\\Udiskthief.exe'],) │                               │
+│ │        process = <Popen: returncode: 1 args: ['C:\\Program Files (x86)\\Windows Kits\\10\\bin...>                                              │                               │
+│ │        retcode = 1                                                                                                                             │                               │
+│ │         stderr = None                                                                                                                          │                               │
+│ │         stdout = '\nNumber of errors: 1\n\nSignTool Error: File not found: src\\Udiskthief.exe\n\n'                                            │                               │
+│ │        timeout = None                                                                                                                          │                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                               │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+CalledProcessError: Command '['C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\signtool.exe', 'remove', '-s', 'src\\Udiskthief.exe']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\16928\AppData\Local\Programs\Python\Python313\Lib\site-packages\briefcase\__main__.py:27 in main                                                                        │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │       command = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x0000023438BB4980>                                                                        │ │
+│ │       console = <briefcase.console.Console object at 0x0000023438A12E40>                                                                                                     │ │
+│ │             e = BriefcaseCommandError('Failed to remove any existing digital signatures from the stub app.\n\nRecreating the app layout may also help resolve this           │ │
+│ │                 issue:\n\n    $ briefcase create windows app\n\n')                                                                                                           │ │
+│ │ extra_cmdline = []                                                                                                                                                           │ │
+│ │       options = {                                                                                                                                                            │ │
+│ │                 │   'update': False,                                                                                                                                         │ │
+│ │                 │   'update_requirements': False,                                                                                                                            │ │
+│ │                 │   'update_support': False,                                                                                                                                 │ │
+│ │                 │   'update_stub': False,                                                                                                                                    │ │
+│ │                 │   'update_resources': False,                                                                                                                               │ │
+│ │                 │   'no_update': False,                                                                                                                                      │ │
+│ │                 │   'test_mode': False                                                                                                                                       │ │
+│ │                 }                                                                                                                                                            │ │
+│ │     overrides = {}                                                                                                                                                           │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ C:\Users\16928\AppData\Local\Programs\Python\Python313\Lib\site-packages\briefcase\commands\build.py:141 in __call__                                                             │
+│                                                                                                                                                                                  │
+│   138 │   │   else:                                                                                                                                                              │
+│   139 │   │   │   state = None                                                                                                                                                   │
+│   140 │   │   │   for app_name, app in sorted(self.apps.items()):                                                                                                                │
+│ ❱ 141 │   │   │   │   state = self._build_app(                                                                                                                                   │
+│   142 │   │   │   │   │   app,                                                                                                                                                   │
+│   143 │   │   │   │   │   update=update,                                                                                                                                         │
+│   144 │   │   │   │   │   update_requirements=update_requirements,                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                  │
+│ │                 app = <com.example.udiskthief v0.0.1 AppConfig>                                             │                                                                  │
+│ │            app_name = 'udiskthief'                                                                          │                                                                  │
+│ │           no_update = False                                                                                 │                                                                  │
+│ │             options = {}                                                                                    │                                                                  │
+│ │                self = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x0000023438BB4980> │                                                                  │
+│ │               state = None                                                                                  │                                                                  │
+│ │           test_mode = False                                                                                 │                                                                  │
+│ │              update = False                                                                                 │                                                                  │
+│ │ update_requirements = False                                                                                 │                                                                  │
+│ │    update_resources = False                                                                                 │                                                                  │
+│ │         update_stub = False                                                                                 │                                                                  │
+│ │      update_support = False                                                                                 │                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                  │
+│                                                                                                                                                                                  │
+│ C:\Users\16928\AppData\Local\Programs\Python\Python313\Lib\site-packages\briefcase\commands\build.py:77 in _build_app                                                            │
+│                                                                                                                                                                                  │
+│    74 │   │                                                                                                                                                                      │
+│    75 │   │   self.verify_app(app)                                                                                                                                               │
+│    76 │   │                                                                                                                                                                      │
+│ ❱  77 │   │   state = self.build_app(app, test_mode=test_mode, **full_options(state, options))                                                                                   │
+│    78 │   │                                                                                                                                                                      │
+│    79 │   │   qualifier = " (test mode)" if test_mode else ""                                                                                                                    │
+│    80 │   │   self.console.info(                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                  │
+│ │                 app = <com.example.udiskthief v0.0.1 AppConfig>                                             │                                                                  │
+│ │           no_update = False                                                                                 │                                                                  │
+│ │             options = {}                                                                                    │                                                                  │
+│ │                self = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x0000023438BB4980> │                                                                  │
+│ │               state = None                                                                                  │                                                                  │
+│ │           test_mode = False                                                                                 │                                                                  │
+│ │              update = False                                                                                 │                                                                  │
+│ │ update_requirements = False                                                                                 │                                                                  │
+│ │    update_resources = False                                                                                 │                                                                  │
+│ │         update_stub = False                                                                                 │                                                                  │
+│ │      update_support = False                                                                                 │                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                  │
+│                                                                                                                                                                                  │
+│ C:\Users\16928\AppData\Local\Programs\Python\Python313\Lib\site-packages\briefcase\platforms\windows\app.py:86 in build_app                                                      │
+│                                                                                                                                                                                  │
+│    83 │   │   │   │   │   # is not currently signed                                                                                                                              │
+│    84 │   │   │   │   │   if "error: 0x00000057" not in e.stdout:                                                                                                                │
+│    85 │   │   │   │   │   │   self.tools.subprocess.output_error(e)                                                                                                              │
+│ ❱  86 │   │   │   │   │   │   raise BriefcaseCommandError(                                                                                                                       │
+│    87 │   │   │   │   │   │   │   f"""\                                                                                                                                          │
+│    88 Failed to remove any existing digital signatures from the stub app.                                                                                                        │
+│    89                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                  │
+│ │                 app = <com.example.udiskthief v0.0.1 AppConfig>                                             │                                                                  │
+│ │              kwargs = {'test_mode': False}                                                                  │                                                                  │
+│ │                self = <briefcase.platforms.windows.app.WindowsAppBuildCommand object at 0x0000023438BB4980> │                                                                  │
+│ │ unbuilt_binary_path = WindowsPath('D:/Beeware/udiskthief/build/udiskthief/windows/app/src/Stub.exe')        │                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Failed to remove any existing digital signatures from the stub app.
+
+Recreating the app layout may also help resolve this issue:
+
+    $ briefcase create windows app
+
+
