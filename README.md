@@ -6,6 +6,8 @@ U盘小偷
 
 2.下载源码
 ```
+git clone https://github.com/Na2Cr2O7/UdiskThief.git
+
 python -m pip install briefcase
 
 cd UdiskThief
